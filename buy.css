@@ -1,0 +1,409 @@
+.container-fluid{
+	
+}@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root{
+    --main-color: #e79a92;
+    --black: #13131a;
+    --bg: #010103;
+    --border:.1rem solid rgba(255,255,255,.3);
+}
+
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    transition: .2s linear;
+    vertical-align: middle;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html ::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html ::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html ::-webkit-scrollbar-thumb{
+    background: #bcb9b9;
+    border-radius: 5rem;
+}
+
+body{
+    background: #fff;
+}
+
+section{
+	padding: 2rem 7%;
+}
+
+
+.heading span{
+    color: #020202;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.btn{
+	margin-top: 1rem;
+	display: inline-block;
+	padding: .9rem 3rem;
+	font-size: 1.7rem;
+	color: #fff;
+	background: #e79a92;
+	cursor: pointer;
+}
+
+.btn:hover{
+	letter-spacing: .2rem; 
+}
+
+.header{
+    background: #e79a92;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem 1rem 4rem;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    text-align: center;
+}
+
+.header .logo img{
+    height: 6rem;
+}
+
+.header .navbar a{
+    margin:0 2rem;
+    font-size: 2rem;
+    color: #fff;
+}
+
+
+.header .icons div{
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+.header .icons div:hover{
+    color: #ffd8d3;
+}
+
+#menu-btn{
+    display: none;
+}
+
+.add-btn{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #e79a92;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 8px 20px;
+    border-radius: 2px;
+    border: 2px solid #e79a92;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.add-btn:hover{
+    border-color: #e79a92;
+    background-color: #fff;
+    color: #e79a92;
+}
+
+
+.header .search-form{
+    position: absolute;
+    top: 115%; right: 7%;
+    background: #fff;
+    width: 50rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+
+
+
+.heading{
+    padding-top:10rem;
+}
+
+.header .icons div{
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+.header .icons div:hover{
+    color: #ffd8d3;
+}
+
+#menu-btn{
+    display: none;
+}
+
+.add-btn{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #e79a92;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 8px 20px;
+    border-radius: 2px;
+    border: 2px solid #e79a92;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.add-btn:hover{
+    border-color: #e79a92;
+    background-color: #fff;
+    color: #e79a92;
+}
+
+
+.header .search-form{
+    position: absolute;
+    top: 115%; right: 7%;
+    background: #fff;
+    width: 50rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+
+
+
+.heading{
+    padding-top:10rem;
+}
+.thanhtoan{
+	margin-top:80px;
+	padding-bottom: 80px;
+	
+	
+}
+.h1{
+	font-size: 30px;
+	font-weight:bolder 700;
+	font-style: oblique;
+	
+}
+
+
+
+#cart-detail{
+	padding-top: 30px;
+	font-size: 20px;
+	text-align: center;
+	font-weight:bold 400px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	border: 2px solid #E37173;
+  border-radius: 10px;
+}
+.input-qty{
+	background-color: aliceblue;
+	opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.note{
+	margin-top: 15px;
+	background-color: #EBE8E8;
+	width: 100%;
+	height: 100px;
+	padding: 15px 5px;
+	
+}
+.h1{
+	font-size: 30px;
+	font-weight: bold 600px;
+}
+
+.cart-info {
+  display: flex;
+
+}
+
+.inputBox span {
+  font-size: 16px;
+}
+
+.inputBox input {
+  width: 95%;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.inputBox input::placeholder{
+	font-size: 16px;
+	
+}
+.hr{
+	
+	border-width: 2px;
+}
+.ttdh{
+	font-size: 30px;
+	font-weight:bold 300px;
+}
+.discount{
+	display: flex;
+	font-size: 20px;
+	
+}
+.tt{
+	font-size: 30px;
+	font-weight:bold 300px;
+}
+.demo{
+	display: flex;
+}
+.delivery{
+	display: flex;
+}
+
+
+/*footer*/
+.footer{
+    text-align: center;
+}
+
+.footer .share{
+    padding: .8rem 0;
+}
+
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #e79a92;
+    border: 2px solid #e79a92;
+    border-radius: 50%;
+    margin: 0 1rem 0 1rem ;
+}
+
+.footer .share a:hover{
+    background-color: #e79a92;
+    border: solid #fff;
+    color: #fff;
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+} 
+
+.footer .links a{
+    padding: .7rem 2rem;
+    color: #e79a92;
+    border: 2px solid #e79a92;
+    font-size: 1.5rem;
+}
+
+.footer .links a:hover{
+    background-color: #e79a92;
+    border: solid #fff;
+    color: #fff;
+}
+
+.footer .credit{
+    font-size: 1.5rem;
+    color: #fea49b;
+    font-weight: lighter;
+    padding: 1rem;
+}
+
+
+
+
+@media (max-width:1025px){
+	html{
+		font-size: 55%;
+	}
+	
+	.header{
+		padding: 1.5rem 2rem;
+	}
+	
+	section{
+		padding: 2rem;
+	}
+}
+
+@media (max-width:768px){
+	
+	#menu-btn{
+    	display: inline-block;
+	}
+	
+	.header .navbar{
+		position: absolute;
+		top: 100%; right: -100%;
+		background: #e79a92;
+		width: 30rem;
+		height: calc(100vh - 9.5rem);
+	}
+	
+	.header .navbar.active{
+		right: 0;
+	}
+	
+	.header .navbar a{
+		color: #fff;
+		display: block;
+		margin: 1.5rem;
+		padding: .5rem;
+		font-size: 2rem;	
+	}
+	
+	.header .search-form{
+		width: 90%;
+		right: 2rem;
+	}
+	
+	
+}
+
+@media (max-width:450px){
+	html{
+		font-size: 50%;
+	}
+	
+	.header{
+		padding: 1.5rem 2rem;
+	}
+}
+
